@@ -1,0 +1,14 @@
+#conatiner {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+#googleimg {
+  width: 350px;
+  margin-left: 80px;
+}
+#conatiner > input {
+  margin-top: 15px;
+  border-radius: 30px;
+  width: 500px;
+}

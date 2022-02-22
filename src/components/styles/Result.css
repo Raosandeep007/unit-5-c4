@@ -1,0 +1,23 @@
+#detailed-result {
+  text-align: start;
+  padding: 2%;
+  width: 60%;
+}
+#url {
+  color: gray;
+}
+#name {
+  display: flex;
+  gap: 10px;
+}
+
+#eq {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 15px;
+  float: left;
+  margin-left: 3px;
+}

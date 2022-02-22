@@ -1,7 +1,6 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 import "./styles/googlehome.css";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 export const Google = () => {
   const navigate = useNavigate();

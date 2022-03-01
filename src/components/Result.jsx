@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import "./styles/Result.css";
@@ -30,10 +30,10 @@ export const Result = () => {
       if (nameA > nameB) {
         return 1;
       }
-
       // names must be equal
       return 0;
     });
+    
   }
   return (
     <div>
